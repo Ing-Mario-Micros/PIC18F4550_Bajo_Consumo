@@ -11,7 +11,7 @@
 #pragma config CPUDIV = OSC1_PLL2
 #pragma config FOSC = HSPLL_HS  //Configuración de fuente de reloj interna
 #pragma config WDT=OFF          //Desactivación del perro guardian
-#pragma LVP=OFF                 //Programación de Bajo voltaje Activada
+#pragma LVP=OFF                 //Programación de Bajo voltaje Desactivada
 
 #define LED_CPU LATC2           //Pin del led de CPU asociado al funcionamiento
 
